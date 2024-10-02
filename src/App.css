@@ -1,0 +1,14 @@
+.row{
+  padding: 10px;}
+
+  .rowcard{
+    display: flex;
+    align-items: center;
+  }
+  /* Custom Media Queries */
+@media (max-width: 576px) {
+  .modal-dialog {
+    width: 90%; /* Make modal take up 90% of the screen on small devices */
+    margin: auto; /* Center the modal */
+  }
+}
